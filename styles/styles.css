@@ -1,0 +1,223 @@
+/* Page settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+/* Portfolio section */
+.portfolio {
+  max-width: 1920px;
+  min-height: 1305px;
+  background: #1a1a1a;
+}
+
+.portfolio .header {
+  background-image: url("../images/portfolio_header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 107px;
+  padding-bottom: 107px;
+}
+
+.header h3 {
+  max-width: 482px;
+  min-height: 107px;
+  border: 8px solid #000000;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38.37px;
+  letter-spacing: 0.4354em;
+}
+
+.filterbar {
+  max-width: 587px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter {
+  max-width: 149px;
+  min-height: 48px;
+  padding: 32px 20px 0px 20px;
+  font-size: 16px;
+  color: #7c7c7c;
+  background-color: #1a1a1a;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.07px;
+  text-align: center;
+}
+.all {
+  color: #fffbfb;
+  border-bottom: 2px solid #7c7c7c;
+}
+.filter:hover {
+  border-bottom: 2px solid #7c7c7c;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  width: 100%;
+  max-width: 1920px;
+  min-height: 802px;
+  /* border: 2px solid #ffffff; */
+  margin-top: 32px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  /* max-width: 640px;
+  min-height: 400px; */
+}
+
+.portfolio p {
+  max-width: 294px;
+  min-height: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  text-align: center;
+  margin: 33px auto;
+  color: #fffbfb;
+}
+
+/* Contact section */
+.contact {
+  max-width: 1920px;
+  min-height: 1178px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(26, 21, 21, 0) 0%,
+    rgba(0, 0, 0, 0.16) 100%
+  );
+  padding-top: 158px;
+  text-align: center;
+}
+
+.contact h3 {
+  max-width: 367px;
+  min-height: 107px;
+  border: 8px 0px 0px 0px;
+  border: 8px solid #000000;
+  margin: 0 auto;
+  text-align: center;
+  padding: 33px 0;
+  margin-bottom: 76px;
+}
+
+.contact p {
+  max-width: 763px;
+  min-height: 72px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact #separator {
+  max-width: 170px;
+  min-height: 12px;
+  margin: 0 auto;
+}
+
+form {
+  /* margin: 0 auto;
+  text-align: center; */
+}
+
+input,
+textarea {
+  display: block;
+  max-width: 609px;
+  min-height: 48px;
+  border-left: 5px solid #000000;
+  border-bottom: 5px solid #000000;
+  border-top: none;
+  border-right: none;
+  margin: 53px auto;
+  padding-top: 2px;
+  padding-left: 14px;
+  background-color: #1a1a1a00;
+}
+
+input[type="textarea"] {
+  min-height: 184px;
+}
+
+#submit {
+  max-width: 197px;
+  min-height: 45px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-left: 3px solid #000000;
+  border-right: 3px solid #000000;
+  border-bottom: none;
+  text-align: center;
+  padding: 10px 50px;
+}
+
+/* footer section */
+footer {
+  max-width: 1920px;
+  min-height: 326px;
+  background-color: #1a1a1a;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 69px;
+}
+
+a[href="#top"] {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.social-handles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 44px auto;
+}
+
+footer #copyright {
+  max-width: 350px;
+  min-height: 22px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.55px;
+  margin: 0 auto;
+}
+
+#copyright #rights {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.55px;
+}
