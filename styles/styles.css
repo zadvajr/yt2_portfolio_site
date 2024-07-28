@@ -117,18 +117,22 @@
 .contact h3 {
   max-width: 367px;
   min-height: 107px;
-  border: 8px 0px 0px 0px;
   border: 8px solid #000000;
   margin: 0 auto;
   text-align: center;
   padding: 33px 0;
   margin-bottom: 76px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38.37px;
+  letter-spacing: 0.3554em;
 }
 
 .contact p {
   max-width: 763px;
   min-height: 72px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20.8px;
@@ -162,6 +166,18 @@ textarea {
   background-color: #1a1a1a00;
 }
 
+input::placeholder {
+  max-width: 205px;
+  min-height: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #8b8b8b;
+}
+
 input[type="textarea"] {
   min-height: 184px;
 }
@@ -169,7 +185,7 @@ input[type="textarea"] {
 #submit {
   max-width: 197px;
   min-height: 45px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 19.5px;
@@ -195,6 +211,14 @@ footer {
 a[href="#top"] {
   text-decoration: none;
   color: #ffffff;
+  max-width: 188px;
+  min-height: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18.29px;
+  letter-spacing: 0.1854em;
+  text-align: center;
 }
 
 .social-handles {
@@ -208,7 +232,7 @@ a[href="#top"] {
 footer #copyright {
   max-width: 350px;
   min-height: 22px;
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24.55px;
@@ -216,7 +240,7 @@ footer #copyright {
 }
 
 #copyright #rights {
-  font-family: "Nunito";
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24.55px;
