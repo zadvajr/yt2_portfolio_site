@@ -6,6 +6,55 @@
   /* border: 1px solid red; */
 }
 
+/* IT Berries Section  */
+.it-berries {
+  max-width: 1920px;
+  min-height: 313px;
+  color: #ffffff;
+  padding-left: 102px;
+  padding-top: 54px;
+  background: #1d1d1d url("../images/logo_itb.png") no-repeat right / 388.05px
+    368.16px;
+}
+
+.it-berries h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  letter-spacing: 0.1854em;
+  max-width: 363px;
+  min-height: 63px;
+  text-align: left;
+}
+
+.it-berries p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 20.8px;
+  width: 1148px;
+  min-height: 89px;
+  margin-bottom: 26px;
+}
+
+/* Styles for anchor tag in header */
+.it-berries a {
+  max-width: 139px;
+  min-height: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.29px;
+  text-align: center;
+  text-decoration: none;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 7px;
+  color: #ffffff;
+}
+
 /* About Section */
 .about {
   max-width: 1920px;
@@ -217,7 +266,7 @@
 .skills #using-header,
 .skills #learning-header,
 .skills #other-header {
-  max-width: 261px;
+  max-width: 297.14px;
   min-height: 74px;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
@@ -241,14 +290,18 @@
   margin-left: 100px;
 }
 
-.using img {
+.using img,
+.learning img,
+.other img {
   max-width: 240px;
   min-height: 169px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 900px) {
-  .using {
+  .using,
+  .learning,
+  .other {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
@@ -273,6 +326,7 @@
 #other-header {
   max-width: 297.14px;
 }
+
 /* Portfolio section */
 .portfolio {
   max-width: 1920px;
