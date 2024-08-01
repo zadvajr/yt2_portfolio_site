@@ -6,6 +6,83 @@
   /* border: 1px solid red; */
 }
 
+/* Home Section */
+.home {
+  max-width: 1920px;
+  min-height: 1022px;
+  background-color: #d7d7d7;
+  background-image: url("../images/bg_image_corrected.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 50% 100%;
+  padding-top: 72px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+header img {
+  max-width: 60px;
+  min-height: 50px;
+  padding: 0px 1.09px 0px 1.24px;
+  text-align: left;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 637px;
+  min-height: 46px;
+  text-align: right;
+  margin-right: 0px;
+}
+
+nav a {
+  max-width: 147px;
+  min-height: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.72px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav #contact-me {
+  border: 4px solid #ffffff;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+main .main-b {
+  max-width: 1000px;
+  min-height: 500px;
+  padding: 20px;
+  text-align: left;
+}
+.home .box-a {
+  max-width: 53.55px;
+  min-height: 50px;
+
+  margin-left: 273px;
+}
+
 /* IT Berries Section  */
 .it-berries {
   max-width: 1920px;
