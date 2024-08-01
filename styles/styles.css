@@ -9,12 +9,12 @@
 /* Home Section */
 .home {
   max-width: 1920px;
+  width: 100%;
   min-height: 1022px;
   background-color: #d7d7d7;
   background-image: url("../images/bg_image_corrected.png");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
   background-size: 60% 100%;
   padding-top: 72px;
 }
@@ -41,6 +41,7 @@ header nav {
   min-height: 46px;
   text-align: right;
   margin-right: 0px;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -103,6 +104,7 @@ main .main-b {
   font-weight: 700;
   line-height: 46.96px;
   text-align: center;
+  margin-left: 256px;
 }
 
 .main-a h1 {
@@ -144,6 +146,7 @@ main .main-b {
 
 .main-b img {
   max-width: 783px;
+  width: 100%;
   min-height: 877px;
 }
 .main-b p {
@@ -158,6 +161,7 @@ main .main-b {
   position: absolute;
   bottom: 25px;
   left: 331px;
+  flex-wrap: nowrap;
 }
 
 /* IT Berries Section  */
@@ -189,6 +193,7 @@ main .main-b {
   text-align: justify;
   line-height: 20.8px;
   width: 1148px;
+  width: 100%;
   min-height: 89px;
   margin-bottom: 26px;
 }
@@ -442,6 +447,8 @@ main .main-b {
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-left: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .using img,
@@ -632,6 +639,7 @@ input,
 textarea {
   display: block;
   max-width: 609px;
+  width: 100%;
   min-height: 48px;
   border-left: 5px solid #000000;
   border-bottom: 5px solid #000000;
