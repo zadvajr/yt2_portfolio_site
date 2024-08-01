@@ -33,6 +33,11 @@ header img {
   text-align: left;
 }
 
+nav {
+  display: flex;
+  gap: 20px;
+}
+
 /* Hamburger menu styles */
 .hamburger {
   display: none;
@@ -42,10 +47,38 @@ header img {
   cursor: pointer;
 }
 
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + nav {
+  display: flex;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  .home {
+    background-image: url("../images/bg-mobile.png"); /* Change this to your mobile background image */
+    background-size: cover;
+  }
+
+  .main-b img {
+    display: none;
+  }
+
+  .main-b p {
+    display: none;
+  }
+  header a img {
+    display: none;
   }
 }
 
