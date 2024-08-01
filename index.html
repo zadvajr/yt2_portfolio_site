@@ -4,15 +4,198 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Portfolio Site Project</title>
   </head>
   <body>
+    <!-- header section containing logo and nav list -->
+    <header>
+      <div class="box-a">
+        <a href="/"><img src="./images/logo.svg" alt="Page Logo" /></a>
+      </div>
+      <div class="box-b">
+        <nav>
+          <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="contact-me">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- Main content of the page goes here -->
+    <main>
+      <div class="main-a">
+        <h4>Hi, I am</h4>
+        <h1>Tomasz Gajda</h1>
+        <p>Front-end Developer / UI Designer</p>
+        <div class="btn">
+          <a href="mailto:danielzadva@gmail.com" class="btn-lnk" target="_blank"
+            ><img src="./images/email.svg" alt="Email Icon"
+          /></a>
+          <a href="https://github.com/zadvajr" class="btn-lnk" target="_blank"
+            ><img src="./images/github.svg" alt="GitHub Icon"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/zadva/"
+            class="btn-lnk"
+            target="_blank"
+            ><img src="./images/linkedin.svg" alt="LinkedIn Icon"
+          /></a>
+        </div>
+      </div>
+      <div class="main-b">
+        <img src="./images/user.png" alt="User profile picture" />
+        <p>this is not my photo, but I dearly hope to get one just like this</p>
+      </div>
+    </main>
+    <!-- end of main content -->
+
+    <!-- IT Berries section -->
+    <section class="it-berries">
+      <h3>IT BERRIES</h3>
+      <p>
+        Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius
+        finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero
+        viverra facilisis ut ac est. Morbi commodo, eros in dignissim tempus,
+        lacus odio rutrum augue, in semper sem magna quis tellus. Etiam enim
+        erat, suscipit eu semper a, dictum sit amet elit. Nunc egestas nisi eget
+        enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra.
+        Ut ante justo, consequat vitae elementum tempor, accumsan nec eros.
+      </p>
+      <a href="#" class="btn-read">| READ MORE |</a>
+    </section>
+    <!-- end of IT Berries -->
+
     <section class="about">
       <h3>ABOUT ME</h3>
+      <p>
+        Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius
+        finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero
+        viverra facilisis ut ac est.
+      </p>
+      <a href="#" class="btn-explore">EXPLORE</a>
+      <div class="sep">
+        <img
+          src="./images/separator.svg"
+          class="separator"
+          alt="line separator"
+        />
+      </div>
+      <div class="service">
+        <div class="design">
+          <h4>DESIGN</h4>
+          <p>
+            I can design the site based on your needs and suggestions. I can
+            also design the site from scratch and consult you during the job.
+          </p>
+        </div>
+        <div class="dev">
+          <h4>DEVELOPMENT</h4>
+          <p>
+            I can design the site based on your needs and suggestions. I can
+            also design the site from scratch and consult you during the job.
+          </p>
+        </div>
+        <div class="maintenance">
+          <h4>MAINTENANCE</h4>
+          <p>
+            I can design the site based on your needs and suggestions. I can
+            also design the site from scratch and consult you during the job.
+          </p>
+        </div>
+      </div>
+      <img
+        src="./images/separator.svg"
+        id="skill-separator"
+        alt="Line separator"
+      />
+      <h4 id="skills-header">SKILLS</h4>
+      <div class="skills">
+        <h4 id="using-header">USING NOW:</h4>
+        <div class="using">
+          <div class="item">
+            <img src="./images/html.svg" alt="HTML" />
+            <p>HTML 5</p>
+          </div>
+          <div class="item">
+            <img src="./images/css.svg" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="item">
+            <img src="./images/sass.svg" alt="SaSS" />
+            <p>SaSS</p>
+          </div>
+          <div class="item">
+            <img src="./images/js.svg" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="item">
+            <img src="./images/react.svg" alt="React" />
+            <p>React</p>
+          </div>
+          <div class="item">
+            <img src="./images/bs.svg" alt="Bootstrap" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="item">
+            <img src="./images/git.svg" alt="Git" />
+            <p>Git</p>
+          </div>
+          <div class="item">
+            <img src="./images/figma.svg" alt="Figma" />
+            <p>Figma</p>
+          </div>
+        </div>
+        <!-- Learning -->
+        <h4 id="learning-header">LEARNING:</h4>
+        <div class="learning">
+          <div class="item">
+            <img src="./images/nodejs.svg" alt="Node.js" />
+            <p>Node.js</p>
+          </div>
+          <div class="item">
+            <img src="./images/mysql.svg" alt="MySQL" />
+            <p>MySQL</p>
+          </div>
+          <div class="item">
+            <img src="./images/mongodb.svg" alt="MongoDB" />
+            <p>MongoDB</p>
+          </div>
+          <div class="item">
+            <img src="./images/ts.svg" alt="TypeScript" />
+            <p>TypeScript</p>
+          </div>
+        </div>
+        <h4 id="other-header">OTHER SKILLS:</h4>
+        <div class="other">
+          <div class="item">
+            <img src="./images/lang.svg" alt="ANGIELSKI C1/C2" />
+            <p>ANGIELSKI C1/C2</p>
+          </div>
+          <div class="item">
+            <img src="./images/lang2.svg" alt="HISZPAŃSKI B1/B2" />
+            <p>HISZPAŃSKI B1/B2</p>
+          </div>
+          <div class="item">
+            <img src="./images/cpp.svg" alt="C++" />
+            <p>C++</p>
+          </div>
+          <div class="item">
+            <img src="./images/c.svg" alt="C" />
+            <p>C</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="portfolio">
       <div class="header">
