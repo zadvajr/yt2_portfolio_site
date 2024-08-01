@@ -1,7 +1,7 @@
 /* Page settings */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
@@ -15,7 +15,7 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 50% 100%;
+  background-size: 60% 100%;
   padding-top: 72px;
 }
 
@@ -67,20 +67,97 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main .main-a {
+  max-width: 1000px;
+  min-height: 500px;
+  width: 50%;
+  padding: 20px;
+  text-align: left;
 }
 
 main .main-b {
   max-width: 1000px;
   min-height: 500px;
+  width: 50%;
   padding: 20px;
   text-align: left;
+  position: relative;
 }
 .home .box-a {
   max-width: 53.55px;
   min-height: 50px;
 
   margin-left: 273px;
+}
+
+.main-a h4 {
+  max-width: 171px;
+  min-height: 58px;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: center;
+}
+
+.main-a h1 {
+  max-width: 532px;
+  min-height: 126px;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 93.92px;
+  text-align: center;
+}
+
+.main-a p {
+  max-width: 426px;
+  min-height: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 29.35px;
+  text-align: center;
+  color: #909090;
+}
+
+.btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.main-a .btn {
+  max-width: 61px;
+  min-height: 40px;
+  border-radius: 5px;
+  background: #c4c4c4;
+  border: 3px solid #c4c4c4;
+  margin-top: 126px;
+  box-shadow: 3px 3px 3px #c4c4c4;
+  padding: 5px;
+}
+
+.main-b img {
+  max-width: 783px;
+  min-height: 877px;
+}
+.main-b p {
+  max-width: 136px;
+  min-height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+  text-align: justified;
+  z-index: 1;
+  position: absolute;
+  bottom: 25px;
+  left: 331px;
 }
 
 /* IT Berries Section  */
